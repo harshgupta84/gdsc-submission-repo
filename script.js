@@ -1,14 +1,42 @@
-
+const decreaseNumber = (incdec, itemprice) => {
+    var itemval = document.getElementById(incdec);
+    
+    if(itemval.value>0){
+    itemval.value = parseInt(itemval.value) - 1;
+   
+}
+  else{
+          alert('Not to be less than 0');
+     }
+}
 const increaseNumber = (incdec, itemprice) => {
 var itemval = document.getElementById(incdec);
-var itemprice = document.getElementById(itemprice);
-// console.log(itemval.value);
 
 itemval.value = parseInt(itemval.value) + 1;
-itemprice.innerHTML  = parseInt(itemprice.innerHTML ) + 15;
-product_total_amt.innerHTML  = parseInt(product_total_amt.innerHTML) + 15;
-total_cart_amt.innerHTML  = parseInt(product_total_amt.innerHTML) + parseInt(shipping_charge.innerHTML);
+
+
 }
+
+
+const decreaseNumber1 = (incdec, itemprice) => {
+    var itemval1 = document.getElementById(incdec);
+  
+    if(itemval1.value>0){
+    itemval1.value = parseInt(itemval1.value) - 1;
+   
+    }
+    else{
+        alert('Not to be less than 0');
+    }
+    }
+const increaseNumber1 = (incdec, itemprice) => {
+var itemval1 = document.getElementById(incdec);
+
+itemval1.value = parseInt(itemval1.value) + 1;
+
+
+}
+
 
 const warn=()=> {
     alert('Saved for next time');

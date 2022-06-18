@@ -25,7 +25,7 @@
         <form class="signup-form">
             <div class="input-icons">
             <i class="fas fa-envelope"></i>
-            <input type="text" class="signup-form-input" placeholder="Enter Your Email">
+            <input type="email" class="signup-form-input" placeholder="Enter Your Email">
            </div>
         </form>
         <h2 class="section-4-heading">Contact Number</h2>
@@ -44,7 +44,7 @@
     <form class="signup-form">
         <div class="input-icons">
         <i class="fas fa-user icon"></i>
-        <input type="text" class="signup-form-input" value="Rodney Cotton" readonly>
+        <input type="text" class="signup-form-input4" value="Rodney Cotton" readonly>
         
        </div>
     </form>
@@ -69,10 +69,12 @@
     <form class="signup-form">
         <div class="input-icons">
         <i class="fas fa-globe"></i>
-        <input type="text" class="signup-form-input1" placeholder="Your country Name ">
-        <button type="submit" class="signup-form-btn">
-            <i class="fas fa-caret-down"></i>
-        </button>
+        <select  class="signup-form-input1"> 
+            <option value="none" selected disabled hidden>Select an Option</option>
+            <option value="">India</option>
+             <option value="">Bangladesh</option>
+              <option value="">Russia</option>
+             </select>
         </div>
         
     </form>
@@ -110,10 +112,9 @@
            
             <button class="signup-form-btn1 " onclick="decreaseNumber('textbox','itemval')">
             <i class="fas fa-minus"></i> </button>
-           <input type="text" name="" class="signup-form-input2" value="0" id="textbox" >
+           <input type="text" name="" class="signup-form-input2" value="1" id="textbox" >
             <button class="signup-form-btn1" onclick="increaseNumber('textbox','itemval')"> 
                 <i class="fas fa-plus"></i></button>
-           
             </div>
             </div>
     </div>
@@ -127,11 +128,10 @@
         <h2 class="section-2-cprice">$1̶2̶4̶.9̶9̶</h2>
          </div>
          <div class="add">
-           
-            <button class="signup-form-btn1 " onclick="decreaseNumber('textbox','itemval')">
+            <button class="signup-form-btn1 " onclick="decreaseNumber1('textbox1','itemval1')">
             <i class="fas fa-minus"></i> </button>
-           <input type="text" name="" class="signup-form-input2" value="0" id="textbox" >
-            <button class="signup-form-btn1" onclick="increaseNumber('textbox','itemval')"> 
+           <input type="text" name="" class="signup-form-input2" value="1" id="textbox1" >
+            <button class="signup-form-btn1" onclick="increaseNumber1('textbox1','itemval1')"> 
                 <i class="fas fa-plus"></i></button>
            
             </div>

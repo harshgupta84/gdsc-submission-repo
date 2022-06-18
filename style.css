@@ -33,7 +33,7 @@ html{
   position: absolute;
   width: 180px;
   height: 44px;
-  margin-left: 20rem;
+  margin-left: 30rem;
   top: 64.06px;
   
   font-family: 'Montserrat';
@@ -262,7 +262,7 @@ transform: rotate(-0.02deg);
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  color: #828282;
+  color: #000000;
   border-radius: 1rem;
 }
 
@@ -304,4 +304,28 @@ transform: rotate(-0.02deg);
   font-size: 3rem;
   font-weight: 500;
   
+}
+
+.nameh{
+  color: #000000;
+}
+
+.signup-form-input4{
+  width: 45rem;
+  height: 6rem;
+  padding: 2rem;
+  border: 0.2rem solid #828282;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #000000;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+
+.signup-form-input4:hover {
+  transform: scale(1.1);
+}
+.add{
+  margin-top: 1rem;
 }
