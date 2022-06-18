@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+/*whole web*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    font-family:"Montserrat",SemiBold;
+ 
+    font-weight:400;
+}
+html{
+  font-size:63%;  
+}
+
+  /*section-1*/
+
+  .section-1{
+    width: 100%;
+    height: 100vh;
+    background-color: white ;
+   
+    display: flex;
+    flex-direction:column;
+    margin-left: 5rem;
+    justify-content:space-between;
+   padding:10rem 0;
+    
+}
+.section-1-heading
+{
+  position: absolute;
+  width: 180px;
+  height: 44px;
+  margin-left: 20rem;
+  top: 64.06px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+ 
+  color: #4E5150;
+  
+  transform: rotate(-0.02deg);
+} 
+.section-1-heading:hover {
+    transform: rotateY(2deg)  translateY(-0.3rem);
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    
+
+  }
+  .section-1-subheading
+{
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 4rem;
+    color:#000000;
+   
+    text-transform: capitalize;
+    letter-spacing:  0.2rem; 
+   
+    transition: transform 0.5s, text-shadow 0.5s;
+} 
+
+.signup-form-input {
+  width: 45rem;
+  height: 6rem;
+  padding: 2rem;
+  border: 0.2rem solid #828282;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #828282;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+
+.signup-form-input:hover {
+  transform: scale(1.1);
+}
+
+.signup-form-input1:hover {
+  transform: scale(1.1);
+}
+.signup-form-input1 {
+  width: 20rem;
+  height: 6rem;
+  padding: 1rem;
+  border: 0.2rem solid #828282;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #828282;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+
+.signup-form-input::placeholder {
+  color: #828282;
+}
+
+
+.signup-form {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.section-4-heading {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+color: #4F4F4F;
+margin-left: 1rem;
+transform: rotate(-0.02deg);
+}
+
+.input-icons{
+  font-size: 2rem;
+}
+
+.signup-form-btn {
+  position: relative;
+  left: -4.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(240, 240, 255);
+  color: #010101;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.location{
+  display: flex;
+  flex-direction: row;
+}
+.checkbox{
+   margin: 1rem;
+   font-size: 2rem;
+   transform: 0.5s;
+}
+.checkbox:hover{
+ transform:scale(1.5);
+}
+
+/*section2*/
+.section-2{
+  
+  display: flex;
+  flex-direction:column;
+  
+  justify-content:space-evenly;
+ padding:1rem 2rem ;
+ position: absolute;
+ width: 500px;
+ height: 700px;
+ left: 817px;
+ top: 170px;
+ background: #F2F2F2;
+ border-radius: 12px;
+}
+
+.section-2-img {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946,
+    0.7rem 0.7rem 0.1rem #297ce9, 0.9rem 0.9rem 0.1rem #e92999;
+     transition: all 0.5s;
+}
+.section-2-img:hover{
+  box-shadow: .8rem .8rem 0.1rem #e92929, 1rem 1rem 0.1rem #a2e946,
+  1.5rem 1.5rem 0.1rem #297ce9, 1.8rem 1.8rem 0.1rem #e92999;
+  transform: scale(1.1);
+ 
+}
+.section-2-subheading
+{
+    font-weight: 500;
+    font-size: 2rem;
+    color:#000000;
+   margin-left: 4rem;
+   margin-bottom: 3rem;
+    text-transform: capitalize;
+    letter-spacing:  0.2rem; 
+   
+} 
+
+.section-2-price
+{
+    font-weight: 800;
+    font-size: 2rem;
+    color:#F2994A;
+  
+    text-transform: capitalize;
+    letter-spacing:  0.2rem; 
+    margin-left: 3rem;
+   
+} 
+
+.section-2-cprice
+{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color:#000000;
+   
+    text-transform: capitalize;
+    letter-spacing:  0.2rem; 
+   margin-left: 4rem;
+   
+} 
+.pr{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  
+}
+.pdesc{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.hr { 
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+} 
+.section-2-subheading1
+{
+    font-weight: 500;
+    font-size: 2rem;
+    color:#000000;
+    text-transform: capitalize;
+    letter-spacing:  0.2rem; 
+   
+} 
+.signup-form-btn1{
+  position: relative;
+  width: 3rem;
+  height: 2rem;
+  background-color: #E0E0E0;
+  
+  color:#828282;
+  
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.signup-form-input2{
+  width: 10rem;
+  height: 4rem;
+  padding: 1rem;
+  border: 0.2rem solid #828282;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #828282;
+  border-radius: 1rem;
+}
+
+.section-2-ship
+{
+    font-weight: 500;
+    font-size: 2rem;
+    color:#000000;
+  
+    text-transform: capitalize;
+    letter-spacing:  0.2rem; 
+    margin-left: 20rem;
+   transform:0.5sec;
+} 
+.section-2-ship:hover
+{
+  transform: scale(1.1);
+  color: #e92929;
+} 
+
+.signup-form-btn3{
+  position: relative;
+  width: 15rem;
+  height: 5rem;
+  background-color: #F2994A;
+  color: #f9f9f9;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-left: 40rem;
+  transform: 0.5s;
+}
+.signup-form-btn3:hover{
+  color: #e92929;
+  transform:scale(1.1);
+}
+.final{
+  font-size: 3rem;
+  font-weight: 500;
+  
+}

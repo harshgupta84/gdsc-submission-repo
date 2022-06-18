@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+  
+    
+ 
+<!--heading-->
+<h2 class="section-1-heading">CHECKOUT</h2>
+<!---section-1--->
+
+<section class="section-1">
+   
+   
+    <div class="contact-information">
+        <h2 class="section-1-subheading">Contact Information</h2>
+
+        <h2 class="section-4-heading">Email</h2>
+        <form class="signup-form">
+            <div class="input-icons">
+            <i class="fas fa-envelope"></i>
+            <input type="text" class="signup-form-input" placeholder="Enter Your Email">
+           </div>
+        </form>
+        <h2 class="section-4-heading">Contact Number</h2>
+        <form class="signup-form">
+            <div class="input-icons">
+            <i class="fas fa-mobile"></i>
+            <input type="text" class="signup-form-input" placeholder="Enter Your Phone Number ">
+            </div>
+        </form>
+    </div>
+
+    <!--SHIPPPING DIVISION-->
+    <div class="shipping-address">
+    <h2 class="section-1-subheading">Shipping Address</h2>
+    <h2 class="section-4-heading">Full Name</h2>
+    <form class="signup-form">
+        <div class="input-icons">
+        <i class="fas fa-user icon"></i>
+        <input type="text" class="signup-form-input" value="Rodney Cotton" readonly>
+        
+       </div>
+    </form>
+    <h2 class="section-4-heading">Home</h2>
+    <form class="signup-form">
+        <div class="input-icons">
+        <i class="fas fa-home"></i>
+        <input type="text" class="signup-form-input" placeholder="Enter Your Address ">
+        </div>
+    </form>
+
+    <h2 class="section-4-heading">City</h2>
+    <form class="signup-form">
+        <div class="input-icons">
+        <i class="fas fa-building"></i>
+        <input type="text" class="signup-form-input" placeholder="Enter Your City ">
+        </div>
+    </form>
+    <div class="location">
+        <div class="country">
+    <h2 class="section-4-heading">Country</h2>
+    <form class="signup-form">
+        <div class="input-icons">
+        <i class="fas fa-globe"></i>
+        <input type="text" class="signup-form-input1" placeholder="Your country Name ">
+        <button type="submit" class="signup-form-btn">
+            <i class="fas fa-caret-down"></i>
+        </button>
+        </div>
+        
+    </form>
+</div>
+    <div class="code">
+    <h2 class="section-4-heading">Postal Code</h2>
+    <form class="signup-form">
+        <div class="input-icons">
+        <i class="fas fa-map-marker" aria-hidden="true"></i>
+        <input type="text" class="signup-form-input1" placeholder="Enter Your Postal Code ">
+        </div>
+    </form>
+</div>
+    </div>
+</div>
+<div class="location">
+<input type="checkbox" onclick="warn()" id="cb1" class="checkbox" >
+<label for="cb1"> <h2 class="section-4-heading">Save the informtion for next time</h2></label>
+</div>
+</section>
+
+
+<!--Section2-->
+<section class="section-2">
+    
+    <div class="pr">
+          <img src="pr1.png" class="section-2-img">
+          <div class="pdesc">
+          <h2 class="section-2-subheading">Vintage Backbag</h2>
+          <div class="pr">
+          <h2 class="section-2-price">$54.99</h2>
+          <h2 class="section-2-cprice">$9̶4̶.9̶9̶  </h2>
+        </div>
+        <div class="add">
+           
+            <button class="signup-form-btn1 " onclick="decreaseNumber('textbox','itemval')">
+            <i class="fas fa-minus"></i> </button>
+           <input type="text" name="" class="signup-form-input2" value="0" id="textbox" >
+            <button class="signup-form-btn1" onclick="increaseNumber('textbox','itemval')"> 
+                <i class="fas fa-plus"></i></button>
+           
+            </div>
+            </div>
+    </div>
+</div>
+    <div class="pr">
+        <img src="pr2.png" class="section-2-img">
+        <div class="pdesc">
+        <h2 class="section-2-subheading">Levi Shoes</h2>
+        <div class="pr">
+        <h2 class="section-2-price">$74.99</h2>
+        <h2 class="section-2-cprice">$1̶2̶4̶.9̶9̶</h2>
+         </div>
+         <div class="add">
+           
+            <button class="signup-form-btn1 " onclick="decreaseNumber('textbox','itemval')">
+            <i class="fas fa-minus"></i> </button>
+           <input type="text" name="" class="signup-form-input2" value="0" id="textbox" >
+            <button class="signup-form-btn1" onclick="increaseNumber('textbox','itemval')"> 
+                <i class="fas fa-plus"></i></button>
+           
+            </div>
+        </div>
+   </div>
+<hr>
+<div class="pr">
+<h2 class="section-2-subheading1">Shipping</h2>
+<h2 class="section-2-ship">$19</h2>
+</div>
+<hr>
+<div class="pr">
+<h2 class="section-2-subheading1">Total</h2>
+<h2 class="section-2-ship">$148.98</h2>
+</div>
+</section>
+<button type="submit" class="signup-form-btn3">
+   <h2 class="final" onclick="placed()">Continue</h2> 
+</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
