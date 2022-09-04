@@ -202,6 +202,7 @@ transform: rotate(-0.02deg);
     text-transform: capitalize;
     letter-spacing:  0.2rem; 
     margin-left: 3rem;
+    border: 0rem;
    
 } 
 
@@ -247,7 +248,7 @@ transform: rotate(-0.02deg);
   height: 2rem;
   background-color: #E0E0E0;
   
-  color:#828282;
+  color:#0c0b0b;
   
   border: none;
   font-size: 1rem;
@@ -328,4 +329,56 @@ transform: rotate(-0.02deg);
 }
 .add{
   margin-top: 1rem;
+}
+
+.modal {
+  
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100rem; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(248, 143, 143); /* Fallback color */
+  background-color: rgba(210, 194, 194, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.popup{
+  font-weight: 800;
+  font-size: 2rem;
+  color:#3926e2;
+
+  text-transform: capitalize;
+  letter-spacing:  0.2rem; 
+  margin-left: 30rem;
+  border: 0rem;
+  
 }
